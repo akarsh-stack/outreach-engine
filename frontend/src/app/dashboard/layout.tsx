@@ -38,7 +38,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
         
         <div className="p-4 border-t border-white/10">
           <div className="flex items-center gap-3 px-3 py-2">
-            <UserButton afterSignOutUrl="/" appearance={{ elements: { userButtonAvatarBox: "h-8 w-8" } }} />
+            <UserButton appearance={{ elements: { userButtonAvatarBox: "h-8 w-8" } }} />
             <span className="text-sm font-medium text-slate-300">My Account</span>
           </div>
         </div>

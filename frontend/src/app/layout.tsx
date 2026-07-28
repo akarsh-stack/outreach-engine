@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider afterSignOutUrl="/">
       <html lang="en" className={`${inter.variable} h-full antialiased dark`}>
         <body className="min-h-full flex flex-col bg-slate-950 text-slate-50 font-sans">
           {children}
