@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0e27] text-white antialiased;
+  }
+}

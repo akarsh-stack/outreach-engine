@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+asyncpg
+playwright
+openai
+httpx
+python-dotenv
+pydantic
+pydantic-settings
+python-jose[cryptography]
+apscheduler
+resend
+serpapi
+beautifulsoup4
